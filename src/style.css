@@ -1,0 +1,501 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', Arial, Helvetica, sans-serif;
+}
+
+
+p {
+    text-align: justify;
+    margin: 1em;
+    line-height: 2em;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+section,
+.contenct-academy {
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 0 5px 15px -5px #00000070;
+
+}
+
+.content-header {
+    background: url(img/header-img.jpg) no-repeat;
+    background-size: cover;
+    margin: 1rem;
+    padding: 1em;
+}
+
+.profile-content {
+
+    align-items: center;
+    width: 44%;
+    background: rgba(15, 15, 15, 0.5);
+    padding: 1rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: white;
+    font-family: 'Merriweather', Arial, Helvetica, sans-serif;
+
+}
+
+.img-profile {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: white 2px solid;
+}
+
+.name-profile {
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.title-profile {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #1b1bfd;
+    text-transform: capitalize;
+
+}
+
+
+.profile-content li {
+    display: inline-block;
+    margin: 10px;
+    list-style: none;
+}
+
+.skills-contenct {
+    padding-left: 1em;
+}
+
+.skills-contenct li {
+    display: inline-flex;
+    margin: 20px;
+    list-style: none;
+}
+
+.profile-content li a {
+    color:white;
+    text-decoration: none;
+    font-size: 60px;
+}
+
+.skills-contenct li a {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+section {
+    margin: 2em;
+}
+
+.desc-contenct {
+    display: inline-block;
+
+}
+
+.social-network {
+    width: 100%;
+    text-align: center;
+}
+
+.social-btn {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: #f1f1f1;
+    margin: 20px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: #3498db;
+    overflow: hidden;
+}
+
+.social-btn i {
+    line-height: 90px;
+    font-size: 28px;
+    transform: 0.2s linear;
+}
+
+.social-btn:hover i {
+    transform: scale(1.2);
+
+}
+
+.container-section {
+
+    width: 90%;
+    margin: 1em;
+    padding: 1em;
+    padding-left: 1em;
+
+}
+
+.title-section {
+    letter-spacing: 4px;
+}
+
+.title-section i {
+
+    color: #3498db;
+}
+
+.academy-title {
+    color: #323232;
+    font-weight: bold;
+
+}
+
+.academy-inst {
+    color: #595865;
+}
+
+.data-academy {
+    color: darkblue;
+    font-style: oblique;
+
+}
+
+@media(max-width: 974px) {
+    .name-profile {
+        font-size: 28px;
+    }
+
+    .title-profile {
+        font-size: 18px;
+    }
+
+    .title-section {
+        font-size: 22px;
+    }
+
+    p,
+    .academy-title,
+    .academy-inst {
+        font-size: 15px;
+    }
+
+
+
+    .data-academy {
+        font-size: 12px;
+
+    }
+
+    .img-profile {
+        width: 130px;
+        height: 130px;
+    }
+
+    .profile-content li a {
+        font-size: 50px;
+    }
+
+    .social-btn {
+        width: 80px;
+        height: 80px;
+    }
+
+    .social-btn i {
+        line-height: 80px;
+        font-size: 27px;
+    }
+
+    .skills-contenct li a {
+        font-size: 40px;
+    }
+
+}
+
+@media(max-width: 921px) {
+    .name-profile {
+        font-size: 26px;
+    }
+
+    .title-profile {
+        font-size: 16px;
+    }
+
+    .title-section {
+        font-size: 20px;
+    }
+
+    p {
+
+        line-height: 1.7em;
+    }
+
+    .social-btn {
+        width: 60px;
+        height: 60px;
+    }
+
+    .social-btn i {
+        line-height: 60px;
+        font-size: 25px;
+    }
+
+    .skills-contenct li a {
+        font-size: 36px;
+    }
+
+    .profile-content li a {
+        font-size: 40px;
+    }
+}
+
+@media(max-width:907px) {
+    .name-profile {
+        font-size: 24px;
+    }
+
+    .title-profile {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .social-btn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .social-btn i {
+        line-height: 50px;
+        font-size: 20px;
+    }
+
+    .title-section {
+        font-size: 20px;
+    }
+
+    .academy-inst {
+        font-size: 13px;
+    }
+
+    .data-academy {
+        font-size: 11px;
+
+    }
+
+    .img-profile {
+        width: 120px;
+        height: 120px;
+    }
+
+
+
+}
+
+@media(max-width:858px) {
+    p {
+        font-size: 12px;
+    }
+
+    .title-section {
+        font-size: 17px;
+    }
+
+    .img-profile {
+        width: 105px;
+        height: 105px;
+    }
+
+    .academy-title {
+        font-size: 13px;
+    }
+
+    .academy-inst {
+        font-size: 11px;
+    }
+
+    .data-academy {
+        font-size: 10px;
+
+    }
+
+    .name-profile {
+        font-size: 22px;
+    }
+
+    .title-profile {
+        color: #1b1bfd;
+    }
+
+    .skills-contenct li a {
+        font-size: 28px;
+    }
+
+    .profile-content li a {
+        font-size: 38px;
+    }
+}
+
+@media(max-width:858px) {
+    .name-profile {
+        font-size: 18px;
+    }
+    .skills-contenct li {
+        margin: 10px;
+    }
+
+    .title-profile {
+        font-size: 10px;
+    }
+
+    p {
+        font-size: 9px;
+    }
+
+    .profile-content li a {
+        font-size: 34px;
+    }
+
+    .img-profile {
+        width: 90px;
+        height: 90px;
+    }
+
+    .skills-contenct li a {
+        font-size: 20px;
+    }
+
+    .social-btn {
+        width: 30px;
+        height: 30px;
+    }
+
+    .social-btn i {
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+    .title-section {
+        font-size: 15px;
+    }
+
+    .title-section i {
+
+        color: #1b1bfd;
+    }
+
+    .academy-title {
+        font-size: 11px;
+    }
+
+    .academy-inst {
+        font-size: 8px;
+    }
+
+    .data-academy {
+        font-size: 7px;
+
+    }
+    .profile-content li a {
+        font-size: 34px;
+    }
+
+}
+
+@media(max-width:660px) {
+    .name-profile {
+        font-size: 14px;
+    }
+
+    .skills-contenct li a {
+        font-size: 20px;
+    }
+
+    .profile-content li a {
+        font-size: 30px;
+    }
+    p{
+        font-size: 5px;
+    }
+
+    .skills-contenct li a {
+        font-size: 12px;
+    }
+
+    .title-section {
+        font-size: 13px;
+    }
+
+    .img-profile {
+        width: 70px;
+        height: 70px;
+    }
+    p{
+        font-size: 7px;
+    }
+    .social-btn {
+        width: 20px;
+        height: 20px;
+    }
+
+    .social-btn i {
+        line-height: 20px;
+        font-size: 9px;
+    }
+    .profile-content li a {
+        font-size: 30px;
+    }
+    .title-profile{
+        font-size: 7px;
+    }
+   
+
+}
+@media(max-width:545px){
+    .name-profile {
+        font-size: 10px;
+    }
+    .profile-content li a {
+        font-size: 25px;
+    }
+
+}
+@media(max-width:480px){
+    .name-profile {
+        font-size: 7px;
+    }
+    .title-profile {
+        font-size: 5px;
+        color: #f1f1f1;
+    }
+    .profile-content li a {
+        font-size: 16px;
+        color: #1b1bfd;
+       
+    }
+    .title-section {
+        font-size: 10px;
+    }
+    .academy-title {
+        font-size: 8px;
+    }
+
+    .academy-inst {
+        font-size: 6px;
+    }
+
+    .data-academy {
+        font-size: 5px;
+
+    }
+    .img-profile {
+        width: 50px;
+        height: 50px;
+    }
+     
+ 
+}
